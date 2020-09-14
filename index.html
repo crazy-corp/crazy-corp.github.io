@@ -2,8 +2,8 @@
 
 if(isset($_POST["submit"]))
 {
-	$recipient="crazycorp008@gmail.com";
-		$subject=$_PPOST["subject"];
+	$recipient="vibinoff@gmail.com";
+		$subject=$_POST["subject"];
 		
 $sender=$_POST["name"];
 
@@ -14,8 +14,7 @@ $message=$_POST["message"];
 $mailBody="Name:$sender
 \nEmail:$mail
 \n\n$message";
-mail($recipient,$subject,$mailBody,"From: <$sender<$mail>");
-
+mail($recipient,$subject,$mailBody,"From: $sender<$mail>");
 }
 ?>-->
 <!DOCTYPE html>
@@ -151,7 +150,7 @@ mail($recipient,$subject,$mailBody,"From: <$sender<$mail>");
 				<i class="fa fa-pencil-square-o"></i>
                 <h4>Graphic Design &amp; Video Editing</h4>
                 <p>
-                  I have pretty good knowledge in Adobe CC softwares like Photoshop,Premeire Pro,After effects,Lightroom classic and also intermediate knowledge i adobe Indesign,Filmora 9,Hitfilm Express and cyberlink Powerdirector.
+                  I have pretty good knowledge in Adobe CC softwares like Photoshop,Premeire Pro,After effects,Lightroom classic and also intermediate knowledge in adobe Indesign,Filmora 9,Hitfilm Express and cyberlink Powerdirector.
                 </p>
               </div>
             </div>
@@ -339,7 +338,7 @@ mail($recipient,$subject,$mailBody,"From: <$sender<$mail>");
         </div>
       </section>
 
-  <!--<section class="section contact-me" data-section="section4">
+    <!--  <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading">
             <h2>Contact Me</h2>
@@ -351,7 +350,7 @@ mail($recipient,$subject,$mailBody,"From: <$sender<$mail>");
           <div class="row">
             <div class="right-content">
               <div class="container">
-                <form id="contact" action="https://cv-vibin.000webhostapp.com/index.php" method="post">
+                <form id="contact" action="index.php" method="post">
                   <div class="row">
                     <div class="col-md-6">
                       <fieldset>
@@ -403,7 +402,7 @@ mail($recipient,$subject,$mailBody,"From: <$sender<$mail>");
                     </div>
                     <div class="col-md-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">
+                        <button type="submit" name="submit" id="form-submit" class="button">
                           Send Message
                         </button>
                       </fieldset>
