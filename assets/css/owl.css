@@ -211,8 +211,8 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: auto;
     border-radius: 50%;
     text-align: center;
 }
@@ -227,7 +227,7 @@ html {
 
 .menu .author-content span {
     font-size: 13px;
-    font-style: italic;
+    font-style: initial;
     color: #fff;
 }
 
@@ -298,7 +298,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #573203;
+  background-color: #2f1715;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
