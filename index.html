@@ -1,22 +1,3 @@
-<!--<?php
-
-if(isset($_POST["submit"]))
-{
-	$recipient="vibinoff@gmail.com";
-		$subject=$_POST["subject"];
-		
-$sender=$_POST["name"];
-
-$mail=$_POST["mail"];
-
-$message=$_POST["message"];
-
-$mailBody="Name:$sender
-\nEmail:$mail
-\n\n$message";
-mail($recipient,$subject,$mailBody,"From: $sender<$mail>");
-}
-?>-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,7 +22,6 @@ mail($recipient,$subject,$mailBody,"From: $sender<$mail>");
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
 	<meta name="google-site-verification" content="uotG9awOHmLuez1PP33Vhnf4DcPAi6oDn59PL6BLra0" />
   </head>
@@ -202,7 +182,7 @@ mail($recipient,$subject,$mailBody,"From: $sender<$mail>");
                   ><input
                     type="radio"
                     data-type="*"
-                    checked=""
+                    checked="True"
                     name="isotope-filter"
                   />
                   <span>all</span></label
