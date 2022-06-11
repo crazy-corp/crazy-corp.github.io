@@ -5,7 +5,18 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+#contact input::placeholder,#contact textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
 
+#contact input::-ms-input-placeholder,#contact textarea::placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+#contact input::-ms-input-placeholder,#contact textarea::placeholder { /* Microsoft Edge */
+  color: white;
+}
 #page-wraper {
     background: url(../images/page-bg1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;

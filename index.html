@@ -529,6 +529,21 @@
                         ></textarea>
                       </fieldset>
                     </div>
+					<div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="robotcheck"
+						  type="text"
+						  rows="1"
+                          class="form-control"
+                          id="robotcheck"
+                          placeholder=""
+                          required=""
+                        ></input>
+                      </fieldset>
+                    </div>
+					<input type="hidden" name="xvalue" id="xvalue"></input>
+					<input type="hidden" name="yvalue" id="yvalue"></input>
                     <div class="col-md-12">
                       <fieldset>
                         <button type="submit" name="submit" id="form-submit" class="button">
@@ -611,6 +626,11 @@
                     $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
                 $('body').delay(350).css({'overflow-y':'visible'});
             })
+			x=Math.floor(Math.random() * 10);
+			y=Math.floor(Math.random() * 10);
+			$("#xvalue").val(x)
+			$("#yvalue").val(y)
+			$("#robotcheck").attr("placeholder", x +"+"+ y+"=").val("")
             //]]>
         </script>
   </body>
