@@ -46,3 +46,29 @@
   margin-top: 110px;
 }
 
+#footer {
+  background: var(--bs-pink);
+  position: absolute;
+  bottom: 0px;
+  width: inherit;
+}
+
+#footer img {
+  width: initial;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  display: block;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+#footerC {
+  margin: 0px;
+}
+
+#guest {
+  margin-top: 170px;
+}
+
