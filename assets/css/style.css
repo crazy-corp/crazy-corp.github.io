@@ -426,7 +426,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/cover.png) center no-repeat;
+  background: url(../img/cover.webp) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -1771,7 +1771,7 @@ html, body {
     content: none;
   }
   .timeline > li .timeline-rectangle {
-    disply: none;
+    display: none;
   }
 }
 
@@ -2037,7 +2037,7 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/design.png) left no-repeat fixed;
+  background: url(../img/design.webp) left no-repeat fixed;
   background-size: cover;
 }
 
