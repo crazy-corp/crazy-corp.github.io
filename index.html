@@ -94,6 +94,7 @@
                         <!-- <li class="page-scroll"><a href="#team">Team</a></li>
                         <li class="page-scroll"><a href="#history">History</a></li> -->
                         <li class="page-scroll"><a href="#works">Works</a></li>
+                        <li class="page-scroll"><a href="#blogs">Blog</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
                         
                     </ul><!-- /.navbar-nav -->
@@ -630,9 +631,20 @@
         <!-- End Works section --> 
 
         <!-- Me section --> 
-<!--works session-->
+<!--Blogs session-->
+<section class="site-section" id="blogs">
+    <div class="container">
+        <h2>Latest Blogs</h2>
+        <p class="section-subtitle"><span>I write few stories and poems, might help you sleep!</span></p>
+        <div class="row" style="padding-top: 15px;">
+           <div id="blogcard">
+            <img id="loading" src="assets/img/loading.svg" class="img-responsive center-block">
+           </div>
 
-  <!--end of works-->
+        </div>
+    </div>
+</section>
+  <!--end of Blogs-->
         <!-- End Me section --> 
 
         <!-- Clients section --> 
@@ -945,6 +957,63 @@ $("#xvalue").val(x)
 $("#yvalue").val(y)
 $("#robotcheck").attr("placeholder", x +"+"+ y+"=").val("")
 //]]>
+
+const api_url = 
+      "https://tales-of-life.herokuapp.com/blog_view";
+  
+// Defining async function
+async function getapi(url) {
+    
+    // Storing response
+    const response = await fetch(url,{credentials: 'same-origin',headers:{"Sec-Fetch-Site": "same-origin"}});
+    
+
+    // Storing data in form of JSON
+    var data = await response.json();
+    console.log(data);
+    if (response) {
+        hideloader();
+    }
+    show(data);
+}
+// Calling that async function
+getapi(api_url);
+  
+// Function to hide the loader
+function hideloader() {
+    document.getElementById('loading').style.display = 'none';
+}
+// Function to define innerHTML for HTML table
+function show(data) {
+    let tab = ``;
+    
+    // Loop to access all rows 
+    for (let r of data) {
+        tab += `
+        <div class="blog-card">
+                <div class="img-holder">
+                    <img src="${r.cover_img_url}" alt=" ">
+                </div>
+                <div class="content-holder">
+                    <h6 class="title">${r.title}</h6>
+
+                    <p class="post-details">
+                        <a href="#">By: Vibin Dave D</a>
+                        <a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> ${r.post_date}</a>
+                        <a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i> ${r.category}</a>
+
+                    </p>
+                    <p><strong>${r.sub_tag}</strong></p>
+                    <p>${r.body.slice(0,250)}...</p>
+                    <a href="https://tales-of-life.herokuapp.com/article/${r.id}" class="read-more">Read more <i class="fa fa-external-link"></i></a>
+                </div>
+            </div>`;
+    }
+    // Setting innerHTML as tab variable
+    document.getElementById("blogcard").innerHTML = tab;
+}
+
+
 </script>
 </body>
 </html>
