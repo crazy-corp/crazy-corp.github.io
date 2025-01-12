@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en" data-critters-container><head>
 
+  <base href="https://crazy-corp.github.io/">
     <!-- Basic Page Needs
     ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -30,7 +31,6 @@
     <link rel="stylesheet" href="assets/css/liteyt.css">
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="uotG9awOHmLuez1PP33Vhnf4DcPAi6oDn59PL6BLra0">
-	<link rel="canonical" href="https://vibindave.com/">
 
     <!-- Stylesheets
     ================================================== -->
@@ -103,7 +103,7 @@
   //]]>
 
   const api_url =
-    "http://localhost:8000/";
+    "https://crazy-corp.github.io/assets/blogs.json";
 
   // Defining async function
   async function getapi(url) {
@@ -132,7 +132,7 @@
     let tab = ``;
 
     // Loop to access all rows 
-    for (let r of data) {
+    for (let r of data.posts) {
       tab += `
       <div class="blog-card">
               <div class="img-holder">
@@ -148,8 +148,8 @@
 
                   </p>
                   <p><strong>${r.sub_tag}</strong></p>
-                  <p>${r.body.slice(0, 250)}...</p>
-                  <a href="https://tales-of-life.herokuapp.com/article/${r.id}" class="read-more">Read more <i class="fa fa-external-link"></i></a>
+                  <p>${r.content.slice(0, 250)}...</p>
+                  <a href="https://crazy-corp.github.io/blog/${r.pk}" class="read-more">Read more <i class="fa fa-external-link"></i></a>
               </div>
           </div>`;
     }

@@ -3,7 +3,7 @@
         {
             "pk": 1,
             "title": "Legend of Marley",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-02",
             "category": "story",
             "sub_tag": "Enjoy the tale!",
@@ -13,7 +13,7 @@
         {
             "pk": 2,
             "title": "Lunch Box",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-02",
             "category": "story",
             "sub_tag": "Enjoy the tale!",
@@ -23,7 +23,7 @@
         {
             "pk": 3,
             "title": "For the girl who wasn't just a girl",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-05",
             "category": "poem",
             "sub_tag": "Dedicated to my dear fellow",
@@ -33,7 +33,7 @@
         {
             "pk": 11,
             "title": "Sanity in Insanity",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "Another weird explanation of life!",
@@ -43,7 +43,7 @@
         {
             "pk": 23,
             "title": "The Unorthodox Love Story",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "What do you really want in your life?",
@@ -53,7 +53,7 @@
         {
             "pk": 24,
             "title": "Vultures and Victims",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "Just another Tale",
@@ -63,7 +63,7 @@
         {
             "pk": 25,
             "title": "The Tale of Outlaws",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "The prespective!",
@@ -73,7 +73,7 @@
         {
             "pk": 26,
             "title": "The Taste of Hunger",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "Why ?",
@@ -83,7 +83,7 @@
         {
             "pk": 27,
             "title": "Once Again",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "poem",
             "sub_tag": "Valentine",
@@ -93,7 +93,7 @@
         {
             "pk": 28,
             "title": "Once Again",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "poem",
             "sub_tag": "Love is a mystery",
@@ -103,7 +103,7 @@
         {
             "pk": 29,
             "title": "Art of Healing",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "poem",
             "sub_tag": "Move on!",
@@ -113,7 +113,7 @@
         {
             "pk": 30,
             "title": "Romantic Jigsaw",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "poem",
             "sub_tag": "Enjoy the tale!",
@@ -123,7 +123,7 @@
         {
             "pk": 31,
             "title": "GIRL \"FRIEND\"",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "poem",
             "sub_tag": "Tale of love",
@@ -133,7 +133,7 @@
         {
             "pk": 32,
             "title": "Another day",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 1",
@@ -143,7 +143,7 @@
         {
             "pk": 33,
             "title": "THRESHOLD",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "story",
             "sub_tag": "Day - 2",
@@ -153,7 +153,7 @@
         {
             "pk": 34,
             "title": "Gift or barter system?",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Day - 3",
@@ -163,7 +163,7 @@
         {
             "pk": 35,
             "title": "Blame Game",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Day - 4",
@@ -173,7 +173,7 @@
         {
             "pk": 36,
             "title": "Virtual shit",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 6",
@@ -183,7 +183,7 @@
         {
             "pk": 37,
             "title": "Little Story",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 7",
@@ -193,7 +193,7 @@
         {
             "pk": 38,
             "title": "Those people...",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 8",
@@ -203,7 +203,7 @@
         {
             "pk": 39,
             "title": "Love is always weird",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 9",
@@ -213,7 +213,7 @@
         {
             "pk": 40,
             "title": "Learn to say f** off!",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 10",
@@ -223,7 +223,7 @@
         {
             "pk": 41,
             "title": "Focal length",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 11",
@@ -233,7 +233,7 @@
         {
             "pk": 42,
             "title": "The devil in golden wings",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 12",
@@ -243,7 +243,7 @@
         {
             "pk": 43,
             "title": "Love Letter",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-06",
             "category": "blog",
             "sub_tag": "Blog - 13",
@@ -253,7 +253,7 @@
         {
             "pk": 44,
             "title": "Reminder! It's Father's Day",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-06-20",
             "category": "poem",
             "sub_tag": "Just a reminder",
@@ -263,7 +263,7 @@
         {
             "pk": 45,
             "title": "Alive",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-07-20",
             "category": "story",
             "sub_tag": "What makes you feel alive?",
@@ -273,7 +273,7 @@
         {
             "pk": 46,
             "title": "THE ONE",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-07-20",
             "category": "poem",
             "sub_tag": "Some moments happen only once!",
@@ -283,7 +283,7 @@
         {
             "pk": 47,
             "title": "The Path",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-10-08",
             "category": "story",
             "sub_tag": "Is there any reason for everything?",
@@ -293,7 +293,7 @@
         {
             "pk": 48,
             "title": "Moment",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-10-28",
             "category": "poem",
             "sub_tag": "Do you remember?",
@@ -303,7 +303,7 @@
         {
             "pk": 49,
             "title": "CHOICE",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2021-12-27",
             "category": "story",
             "sub_tag": "Some stories don't need caption.",
@@ -313,7 +313,7 @@
         {
             "pk": 50,
             "title": "Nadir",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-01-27",
             "category": "blog",
             "sub_tag": "Life is so simple but complicated!",
@@ -323,7 +323,7 @@
         {
             "pk": 51,
             "title": "Desire",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-03-24",
             "category": "story",
             "sub_tag": "What does your heart desire?",
@@ -333,7 +333,7 @@
         {
             "pk": 53,
             "title": "Do you believe in condom? Some Indian Stuff",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-06-07",
             "category": "blog",
             "sub_tag": "Scripted Comedy S01E01",
@@ -343,7 +343,7 @@
         {
             "pk": 54,
             "title": "The Constant",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-06-11",
             "category": "story",
             "sub_tag": "A feel good one!",
@@ -353,7 +353,7 @@
         {
             "pk": 55,
             "title": "THE SECOND BENCH",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-07-18",
             "category": "story",
             "sub_tag": "Dedicated to Arvey Malhotra",
@@ -363,7 +363,7 @@
         {
             "pk": 56,
             "title": "Dark Side",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-08-27",
             "category": "blog",
             "sub_tag": "S01E01 - Why doesn't people talk about this ?",
@@ -373,7 +373,7 @@
         {
             "pk": 57,
             "title": "Scripted Comedy - That doesn't makes sense!",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-08-29",
             "category": "blog",
             "sub_tag": "S01E02",
@@ -383,7 +383,7 @@
         {
             "pk": 58,
             "title": "13 Rogues",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-09-03",
             "category": "story",
             "sub_tag": "Chapter 1",
@@ -393,7 +393,7 @@
         {
             "pk": 59,
             "title": "13 Rogues",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-09-10",
             "category": "story",
             "sub_tag": "Chapter 2",
@@ -403,7 +403,7 @@
         {
             "pk": 60,
             "title": "13 Rogues Chapter 3",
-            "author": 1,
+            "author": "Vibin Dave D",
             "post_date": "2022-09-19",
             "category": "story",
             "sub_tag": "Chapter 3",
